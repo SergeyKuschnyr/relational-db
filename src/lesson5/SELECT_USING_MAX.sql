@@ -1,0 +1,1 @@
+select max(international_sales) from MOVIE_STAT;
