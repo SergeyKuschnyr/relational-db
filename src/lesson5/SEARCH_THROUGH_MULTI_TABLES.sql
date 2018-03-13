@@ -1,0 +1,1 @@
+select director, sum(domestic_sales), sum(international_sales) from (select * from MOVIE, MOVIE_STAT where id = movie_id) group by director;
